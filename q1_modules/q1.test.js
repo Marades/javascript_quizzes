@@ -4,7 +4,7 @@ import { bazString } from './baz/bazFile';
 import barString from './bar'
 import {fooString} from './foo'
 
-const result = barString + fooString + bazString;
+const result = fooString + barString + bazString;
 
 const expectedResult = 'FOOBARBAZ';
 
